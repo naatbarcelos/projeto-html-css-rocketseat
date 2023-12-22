@@ -9,3 +9,21 @@ body {
     /*background: color image repeat posicion/size */
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; 
 }
+
+#container {
+    width: 360px;
+    /*height: 712px; nao precisa colocar altura, tamanho da pagina */
+    border: 1px solid red;
+    margin: auto;
+}
+
+#profile {
+    text-align: center;
+}
+
+
+#profile img {
+   /*display: block; pode ser uma opcao */
+   width: 120px;
+   margin: auto;
+}
