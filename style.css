@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /*
     background-image: url(./assets/bg-mobile.jpg);
@@ -10,15 +16,25 @@ body {
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; 
 }
 
+body * {
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
+
 #container {
     width: 360px;
-    /*height: 712px; nao precisa colocar altura, tamanho da pagina */
-    border: 1px solid red;
-    margin: auto;
+    margin: 56px auto 0px auto;
+    /*height: 712px; nao precisa colocar altura, tamanho da pagina
+    border: 1px solid red; */
+    /*margin-top: 56px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto; */
 }
 
 #profile {
     text-align: center;
+    padding: 24px;
 }
 
 
@@ -26,4 +42,11 @@ body {
    /*display: block; pode ser uma opcao */
    width: 120px;
    margin: auto;
+}
+
+#profile p {
+    /*font-size: 16px; tamanho padrao, nao precisa especificar */
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
 }
